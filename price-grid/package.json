@@ -1,5 +1,6 @@
 {
   "name": "price-grid",
+  "homepage": "https://w4gfo.github.io/pricegrid/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
