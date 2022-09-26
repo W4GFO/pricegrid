@@ -1,0 +1,39 @@
+@import './AllComponentsStyles.scss';
+
+.aboutFrame {
+	background-color: $SecondaryCyan;
+}
+
+.aboutFrame header {
+	font-size: 1.1em;
+	margin-top: 12px;
+	margin-left: $MobileSideMargin;
+	color: $NeutralLightGray;
+	font-weight: $FontWeightHeavy;
+}
+
+.aboutFrame article {
+	margin-left: $MobileSideMargin;
+}
+
+.aboutFrame article p {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: $NeutralLightGray;
+}
+
+@media screen and (min-width:$breakWidth) {
+	.aboutFrame header {
+		margin-top: $DesktopSideMargin;
+		margin-left: $DesktopSideMargin;
+	}
+
+	.aboutFrame header {
+		font-size: 1.3em;
+	}
+
+	.aboutFrame article {
+		margin-left: $DesktopSideMargin;
+	}
+	
+}

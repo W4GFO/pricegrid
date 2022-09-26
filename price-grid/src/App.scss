@@ -1,0 +1,11 @@
+@import './Components/AllComponentsStyles.scss';
+
+div#root {
+  min-height: 100vh;
+  max-width: $maxWidth;
+  background-color: #E2E2E2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

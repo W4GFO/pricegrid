@@ -1,0 +1,48 @@
+@import './AllComponentsStyles.scss';
+
+.grid-container {
+	width: 85vw;
+	height: 100vh;
+	
+	max-width: $MaxWidth;
+	max-height: $MaxHeight;
+
+	background-color: #C2C2D2;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	display: grid;
+	grid-template-areas: 
+		"join"
+		"signup"
+		"about";
+
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.join-item 
+{
+	grid-area: join;
+}
+
+.about-item {
+	grid-area: about;
+}
+
+.signup-item {
+	grid-area: signup;
+}
+
+@media screen and (min-width:$breakWidth) {
+	.grid-container {
+		grid-template-areas:
+			"join   join"
+			"signup about";
+
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+
+		background-color: orange;
+	}
+}
