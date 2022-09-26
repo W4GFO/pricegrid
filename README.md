@@ -1,12 +1,32 @@
-# Getting Started with Create React App
+# Single Grid Price Component Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Specifically using the TypeScript template:
 
-In the project directory, you can run:
+```
+> npx create-react-app price-grid --template typescript
+```
 
-### `npm start`
+## Additional npm installs
+
+In addition to the standard npm packages, I also included the SASS package.
+
+```
+> npm install sass
+```
+
+## The Four main components which make up the solution are:
+
+1. ParentCardFrame
+2. Signup
+3. About
+4. Join
+
+Each one of the React components is partnered with its corresponding scss file.  
+
+Also, there is a parent scss file for SASS variables to be used thoughout the styling components.
+This is the `AllComponentsStyles.scss` file.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
