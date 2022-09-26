@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pricegrid/static/css/main.b2eaea46.css",
+    "main.js": "/pricegrid/static/js/main.9df56f37.js",
+    "static/js/787.3c7c2182.chunk.js": "/pricegrid/static/js/787.3c7c2182.chunk.js",
+    "index.html": "/pricegrid/index.html",
+    "main.b2eaea46.css.map": "/pricegrid/static/css/main.b2eaea46.css.map",
+    "main.9df56f37.js.map": "/pricegrid/static/js/main.9df56f37.js.map",
+    "787.3c7c2182.chunk.js.map": "/pricegrid/static/js/787.3c7c2182.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2eaea46.css",
+    "static/js/main.9df56f37.js"
+  ]
+}
