@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+/*Frame*/
+$MaxWidth: 800px;
+$MaxHeight: 600px;
+
+/*Primary Colors*/
+
+$PrimaryCyan: hsl(179, 62%, 43%);
+$SecondaryCyan: hsl(179, 62%, 50%);
+
+$BrightYellow: hsl(71, 73%, 54%);
+
+/*Neutral Colors*/
+
+$NeutralGrayish: hsl(218, 22%, 67%);
+
+$NeutralLightGray: hsl(204, 43%, 93%);
+$NeutralFadedLightGray: hsl(204, 43%, 74%);
+/*Font*/
+
+//- Family: [Karla](https://fonts.google.com/specimen/Karla)
+$FontWeightLight:400;
+$FontWeightHeavy:700;
+
+$maxWidth:1440px;
+$breakWidth:650px;
+
+$MobileSideMargin:20px;
+$DesktopSideMargin:38px;
+
+p {
+	font-family: 'Karla', 'Times New Roman', Times, serif;
+}

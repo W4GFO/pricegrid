@@ -1,0 +1,51 @@
+@import './AllComponentsStyles.scss';
+
+.joinFrame {
+	background-color: $NeutralLightGray;
+}
+
+.join-content {
+	margin-left: $MobileSideMargin;
+	margin-right: $MobileSideMargin;
+}
+
+.join-content header p {
+	font-size: 1.1em;
+	color: $PrimaryCyan;
+	padding-bottom: 4px;
+	font-weight: $FontWeightHeavy;
+}
+
+.join-content section p {
+	font-size: 1.1rem;
+	color: $BrightYellow;
+	font-weight: $FontWeightHeavy;
+}
+
+.join-content article p {
+	font-size: 1.1rem;
+	line-height: 1.5em;
+	color: $NeutralGrayish;
+	font-weight: $FontWeightLight;
+}
+
+@media screen and (min-width:$breakWidth) {
+	.join-content {
+		margin-top: 46px;
+		margin-left: $DesktopSideMargin;
+		margin-right: $DesktopSideMargin;
+	}
+
+	.join-content header p {
+		font-size: 1.6em;
+	}
+
+	.join-content section p {
+		font-size: 1.4rem;
+	}
+
+	.join-content article p {
+		font-size: 1.22rem;
+		font-weight: $FontWeightHeavy;
+	}
+}
